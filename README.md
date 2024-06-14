@@ -7,6 +7,45 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Laravel Push Notification using Pusher
+This project demonstrates how to integrate push notifications in a Laravel application using Pusher. The code is available on GitHub for reference and use.
+
+## Screenshots
+- Add Post
+![Screenshot (9)](https://github.com/sagarsurya/laravel-push-notification-pusher/assets/40709471/28101cff-f798-4c48-9306-0f3ae302e184)
+
+- Notification in Real Time
+<img width="1512" alt="Screenshot 2024-06-14 at 11 24 06 PM" src="https://github.com/sagarsurya/laravel-push-notification-pusher/assets/40709471/9ee134b5-689d-41f9-bd25-7bddb73496f6">
+
+## Installation
+
+1. Cloning into the local project
+
+```bash
+  git clone https://github.com/sagarsurya/laravel-push-notification-pusher.git
+  cd laravel-push-notification-pusher
+```
+2. Setup project dependencies
+
+```bash
+  composer install
+```
+3. Create migrations
+
+```bash
+  php artisan migrate
+```
+4. Access URL to see the notification 
+
+```bash
+  http://localhost/laravel-push-notification/pusher
+```
+5. Access URL to submit the post 
+
+```bash
+  http://localhost/laravel-push-notification/user/post
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
